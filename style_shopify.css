@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    --main-background-color: #a2b3c4;
+}
+
+
+ /*   height: 110px; /*20%*/
+/* display: flex;
+ align-items: center; */
+header {
+    height: 110px;
+    display: flex;
+    align-items: center;
+}
+/*  width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem; */
+nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+
+}
+.logo {
+    display: flex;
+    align-items: center;
+
+ .logo img{
+    
+    width: 200px;
+ }
+
+.actions-container {
+    display: flex;
+    align-items: center;
+}
+
+.actions {
+    display: inline;
+    padding-right: 2.3rem;
+}
+.actions a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding-left: 1rem;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.button a> button {
+    border: none;
+    color: white;
+    background-color: rgb(0, 128, 64);
+    padding: 1rem;
+}
+
+/*li {
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+li button a{
+    color: white;
+}
+
+li button {
+    height: 55px;
+    border-radius: 5px;
+    border: none;
+    background-color: lightseagreen;
+} */
+
+
+
+
+/*.logo img {
+    height: 50px;
+    width: auto;
+} */
+
+
+
+.main-container {
+    background-color: var(--main-background-color);
+    display: flex;
+}
+
+article {
+    
+    padding: 20px;
+}
+
+article h1 {
+    font-size: 4rem;
+}
+
+article p {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.email-input {
+    height: 45px;
+    padding: 0 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.submit-button {
+    height: 45px;
+    width: 70px;
+    border: none;
+    background-color: lightseagreen; 
+    border-radius: 5px;
+}
+
+.submit-button a {
+    color: white;
+}
+
+picture img {
+    
+    width: 700px;
+    height: auto;
+}
+
+
+
+footer {
+    background-color: var(--main-background-color);
+
+}
+
+footer p {
+    margin: 0;
+    padding: 40px 20px;
+}
